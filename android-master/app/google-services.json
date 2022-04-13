@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "218916179444",
+    "firebase_url": "https://gocery-cse110.firebaseio.com",
+    "project_id": "gocery-cse110",
+    "storage_bucket": "gocery-cse110.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:218916179444:android:3e0d2797f247cec90c3da1",
+        "android_client_info": {
+          "package_name": "com.gocery.recipez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "218916179444-r2htobmkqe0hirmuhbd8u7puuqsc1n16.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.gocery.recipez",
+            "certificate_hash": "4e996aa5393a1ab427df61910bc79c5f78306e08"
+          }
+        },
+        {
+          "client_id": "218916179444-18rluojp0ukhvu9667adbugvcs0gu2p9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAW8CpNY3EJw0xQtZakq3tGhW9xGgc_XH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "218916179444-18rluojp0ukhvu9667adbugvcs0gu2p9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

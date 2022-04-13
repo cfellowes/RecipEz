@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#DA7770</color>
+    <color name="colorPrimaryDark">#A85F5A</color>
+    <color name="colorAccent">#60A065</color>
+    <color name="colorError">#C32A1F</color>
+    <color name="colorSuccess">#217225</color>
+    <color name="colorToolbarTitle">@color/white</color>
+    <color name="colorBackground">#f3d596</color>
+    <color name="colorEnough">@color/colorSuccess</color>
+    <color name="colorNotEnough">#BE7912</color>
+    <color name="colorNone">@color/colorError</color>
+    <color name="white">#FFFFFF</color>
+</resources>

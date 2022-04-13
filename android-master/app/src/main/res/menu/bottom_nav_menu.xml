@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_scan"
+        android:icon="@drawable/ic_photo_camera_black_24dp"
+        android:title="@string/title_scan" />
+
+    <item
+        android:id="@+id/navigation_pantry"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="@string/title_pantry" />
+
+    <item
+        android:id="@+id/navigation_recipes"
+        android:icon="@drawable/ic_book_black_24dp"
+        android:title="@string/title_recipes" />
+
+</menu>

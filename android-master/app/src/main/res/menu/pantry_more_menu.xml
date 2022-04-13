@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/button_delete_pantry"
+        android:title="@string/button_delete_pantry" />
+
+    <item
+        android:id="@+id/button_logout"
+        android:title="@string/button_logout" />
+
+</menu>

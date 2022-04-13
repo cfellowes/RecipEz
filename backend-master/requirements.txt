@@ -1,0 +1,7 @@
+firebase_admin
+flask
+jellyfish
+munkres
+regex
+requests
+veryfi

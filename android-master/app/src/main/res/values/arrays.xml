@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="array_store_names">
+        <item>Ralphs</item>
+        <item>Trader Joe\'s</item>
+        <item>Vons</item>
+        <item>Whole Foods</item>
+    </string-array>
+
+</resources>

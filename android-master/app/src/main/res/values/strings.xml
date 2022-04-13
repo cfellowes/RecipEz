@@ -1,0 +1,112 @@
+<resources>
+    <string name="alert_delete_pantry">Are you sure you want to delete this pantry?\nThis action cannot be undone.</string>
+    <string name="alert_delete_item">Delete item?</string>
+    <string name="alert_delete_recipe">Delete recipe?</string>
+    <string name="alert_failed_scan">Looks like we didn\'t get anything from that. Please try again.</string>
+    <string name="alert_recipe_confirmation">You\'re missing some ingredients. Are you sure you can make this recipe?</string>
+
+    <string name="button_add_in_progress">Adding&#8230;</string>
+    <string name="button_add_items">Add Items</string>
+    <string name="button_add_items_to_pantry">Add Items to Pantry</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="button_create_in_progress">Creating&#8230;</string>
+    <string name="button_create_pantry">Create Pantry</string>
+    <string name="button_create_recipe">Create Recipe</string>
+    <string name="button_delete_pantry">Delete Pantry</string>
+    <string name="button_login">Login</string>
+    <string name="button_login_in_progress">Logging in&#8230;</string>
+    <string name="button_logout">Logout</string>
+    <string name="button_item_lookup">Search for Item</string>
+    <string name="button_make_in_progress">Making&#8230;</string>
+    <string name="button_make_recipe">Make Recipe</string>
+    <string name="button_next">Next</string>
+    <string name="button_no">No</string>
+    <string name="button_ok">OK</string>
+    <string name="button_register">Register</string>
+    <string name="button_register_in_progress">Registering&#8230;</string>
+    <string name="button_request_recipes">View Recommended Recipes</string>
+    <string name="button_save">Save</string>
+    <string name="button_save_in_progress">Saving&#8230;</string>
+    <string name="button_send_reset_link">Send Reset Link</string>
+    <string name="button_yes">Yes</string>
+
+    <string name="checkbox_track_quantity">Track Item Quantity</string>
+
+    <string name="hint_confirm_password">Confirm password</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_instructions">1. Preheat the oven to 425&#176;F&#8230;</string>
+    <string name="hint_item_name">Item Name</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_quantity">0</string>
+    <string name="hint_pantry_name">Pantry name</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_recipe_name">Recipe Name</string>
+    <string name="hint_search">Search</string>
+    <string name="hint_search_scan">Search for a matching item</string>
+
+    <string name="msg_err_create_pantry_invalid_input">Please enter a name for your pantry.</string>
+    <string name="msg_err_login_failure">Login failed.</string>
+    <string name="msg_err_login_invalid_input">Please enter a valid email and password.</string>
+    <string name="msg_err_registration_failure">Registration failed.</string>
+    <string name="msg_err_registration_invalid_input">Please enter a valid email and matching passwords.</string>
+    <string name="msg_err_reset_failure">Failed to send a reset link.</string>
+    <string name="msg_err_reset_invalid_input">Please enter a valid email address.</string>
+
+    <string name="msg_success_make_recipe">Pantry updated.</string>
+    <string name="msg_success_registration">Registration successful!</string>
+    <string name="msg_success_reset_password">A password reset link has been sent to your email.</string>
+
+    <string name="msg_welcome_part_1">Welcome,&#160;</string>
+    <string name="msg_welcome_part_2">!</string>
+
+    <string name="spinner_new_pantry">Create New Pantry&#8230;</string>
+
+    <string name="text_default_items">Search for items to add them here.</string>
+    <string name="text_default_pantry">Add some items to your pantry to see them here.</string>
+    <string name="text_default_quantity">0.0</string>
+    <string name="text_default_recipes">Add your own recipes to see them here.</string>
+    <string name="text_default_recommended_recipes">Nothing to see here.\nAdd more items to your pantry for better results.</string>
+    <string name="text_new_user">New user?</string>
+    <string name="text_no_results">No results found.</string>
+    <string name="text_quantity">Quantity</string>
+    <string name="text_reset_password">Forgot password?</string>
+    <string name="text_returning_user">Already have an account?</string>
+    <string name="text_scan_instructions">Scan a receipt to automatically add items to your pantry.</string>
+    <string name="text_scanning">Scanning&#8230;</string>
+    <string name="text_searching">Searching&#8230;</string>
+    <string name="text_subtitle_password_reset">No problem. Let\'s change it real quick.</string>
+    <string name="text_subtitle_registration">Let\'s get you started with an account.</string>
+    <string name="text_take_picture">Take Picture</string>
+    <string name="text_upload_picture">Upload an Image</string>
+
+    <string name="title_add_items">Add Items</string>
+    <string name="title_app">RecipEz</string>
+    <string name="title_create_pantry">Create New Pantry</string>
+    <string name="title_create_recipe">Create Recipe</string>
+    <string name="title_edit_item">Edit Item</string>
+    <string name="title_items">Items</string>
+    <string name="title_pantry">Pantry</string>
+    <string name="title_ingredients">Ingredients</string>
+    <string name="title_instructions">Instructions</string>
+    <string name="title_password_reset">Forgot Your Password?</string>
+    <string name="title_recipes">Recipes</string>
+    <string name="title_recommended_recipes">Recommended Recipes</string>
+    <string name="title_registration">Welcome!</string>
+    <string name="title_scan">Scan</string>
+    <string name="title_scan_results">Confirm Your Scan</string>
+    <string name="title_select_store">Select a Store</string>
+    <string name="title_suggestions">Suggestions</string>
+    <string name="title_toolbar_scan">Receipt Scanning</string>
+    <string name="title_view_recipe">View Recipe</string>
+
+    <string name="recipe_sample">Sample Recipe</string>
+    <string name="recipe_create">Create Recipe</string>
+    <string name="recipe_suggest">Request Recipe</string>
+    <string name="recipe_ingredients">Ingredients Added</string>
+    <string name="recipe_instructions">Type Recipe Instructions Below (optional)</string>
+    <string name="recipe_steps">1. Beat the egg 2. Mix in the milk slowly with the beaten eggs</string>
+    <string name="recipe_save">Save</string>
+
+    <string name="ingredient_ex1">Eggs</string>
+    <string name="ingredient_ex2">Milk</string>
+</resources>

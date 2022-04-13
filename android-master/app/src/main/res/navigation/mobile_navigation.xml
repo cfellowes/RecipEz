@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_pantry">
+
+    <fragment
+        android:id="@+id/navigation_scan"
+        android:name="com.gocery.recipez.fragments.ScanFragment"
+        android:label="@string/title_scan"
+        tools:layout="@layout/fragment_scan" />
+
+    <fragment
+        android:id="@+id/navigation_recipes"
+        android:name="com.gocery.recipez.fragments.RecipesFragment"
+        android:label="@string/title_recipes"
+        tools:layout="@layout/fragment_recipes" />
+
+    <fragment
+        android:id="@+id/navigation_pantry"
+        android:name="com.gocery.recipez.fragments.PantryFragment"
+        android:label="@string/title_pantry"
+        tools:layout="@layout/fragment_pantry" />
+</navigation>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gocery.recipez">
+
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/title_app"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/ToolbarTheme">
+        <activity
+            android:name=".activities.ViewRecommendedRecipeActivity"
+            android:label="@string/title_view_recipe" />
+        <activity
+            android:name=".activities.RecommendedRecipesActivity"
+            android:label="@string/title_recommended_recipes" />
+        <activity
+            android:name=".activities.PantryItemActivity"
+            android:theme="@style/NoToolbarTheme" />
+        <activity
+            android:name=".activities.AddItemsActivity"
+            android:label="@string/title_add_items" />
+        <activity
+            android:name=".activities.LaunchActivity"
+            android:theme="@style/NoToolbarTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activities.CreatePantryActivity"
+            android:label="@string/title_create_pantry" />
+        <activity
+            android:name=".activities.ScanItemActivity"
+            android:label="@string/title_edit_item" />
+        <activity
+            android:name=".activities.ScanResultsActivity"
+            android:label="@string/title_scan_results" />
+        <activity
+            android:name=".activities.LoginActivity"
+            android:theme="@style/NoToolbarTheme" />
+        <activity
+            android:name=".activities.PasswordResetActivity"
+            android:theme="@style/NoToolbarTheme" />
+        <activity
+            android:name=".activities.RegistrationActivity"
+            android:theme="@style/NoToolbarTheme" />
+        <activity
+            android:name=".activities.MainActivity"
+            android:theme="@style/NoToolbarTheme" />
+        <activity
+            android:name=".activities.CreateRecipeActivity"
+            android:label="@string/title_create_recipe" />
+        <activity
+            android:name=".activities.ViewRecipeActivity"
+            android:label="@string/title_view_recipe" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.gocery.recipez.file_provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+</manifest>
